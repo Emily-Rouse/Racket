@@ -1,0 +1,6 @@
+#lang racket
+
+(define (sortLessThan a b)
+  (< (string-length a) (string-length b)))
+
+(sort '("blue" "red" "yellow" "green") sortLessThan)
